@@ -24,4 +24,4 @@ call echo APP_VERSION %VERSION:"=%> "%VERSION_FILE%"
 echo Sürüm bilgisi yazıldı: APP_VERSION %VERSION:"=%
 echo.
 echo Tüm işlemler tamamlandı.
-
+exit
