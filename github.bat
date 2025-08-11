@@ -11,7 +11,7 @@ echo Committing...
 git commit -m "Auto commit %date% %time%" || echo "No changes to commit."
 
 echo Pushing changes...
-git push origin main
+git push --force origin main
 
 echo Process completed!
 exit
