@@ -1,1 +1,2 @@
-selam naber 
+LTTD = 43
+LNTD = 14
