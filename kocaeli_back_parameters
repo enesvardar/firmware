@@ -1,1 +1,15 @@
-
+BACK-PARAMATERS
+[ID] = [0 - 4]
+begin
+CX = 0; CZ= 0; L = 1;
+CX = 5; CZ= 1; L = 1;
+CX = 5; CZ= 1; L = 1;
+CX = 5; CZ= 1; L = 1;
+end
+[ID] = [5 - 9]
+begin
+CX = 0; CZ= 0; L = 1;
+CX = 4; CZ= 1; L = 1;
+CX = 4; CZ= 2; L = 1;
+CX = 4; CZ= 3; L = 1;
+end
