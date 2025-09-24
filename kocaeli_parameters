@@ -1,1 +1,9 @@
-
+[ID] = [0 - 13]
+begin
+UPHP = 50;
+UNHP = 40;
+end
+ID = 5
+begin
+UPHP = 50;
+end
