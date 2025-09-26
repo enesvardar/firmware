@@ -1,4 +1,4 @@
 0x0043002E 1 kocaeli
 0x0042002E 2 kocaeli
-0x0041002E 5 kocaeli
+0x0041002E 8 kocaeli
 0x0044002E 4 kocaeli
