@@ -2,4 +2,5 @@
 0x0052002E 2 kocaeli
 0x0041002E 7 kocaeli
 0x0044002E 4 kocaeli
+0x002F002D 3 kocaeli
 
