@@ -1,11 +1,11 @@
 PARAMATERS
 [ID] = [0 - 105]
 begin
-LTTD=43.5115; 
-LNTD=12.1613;
+LTTD = 43.5115; 
+LNTD = 12.1613;
 AAPD = 1;
 BOXD = -1;
-TZ = 2;
+TZ__ = 2;
 PWDT = 1.139;
 UPHP = 10;
 UNHP = -10;
