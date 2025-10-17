@@ -1,0 +1,19 @@
+PARAMATERS
+[ID] = [0 - 59]
+begin
+LTTD = 45.793; 
+LNTD = 30.715;
+BTDP = -28;
+EWIP = -28;
+WWIP = 28;
+ASWP = -45;
+ACLP = -55;
+UPHP = 10;
+UNHP = -10;
+TZ__ = 2;
+AAPD = 1;
+BOXD = -1;
+SYNC = 1;
+BOXD = -1;
+AAPD = 1;
+end
