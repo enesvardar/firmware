@@ -1,11 +1,3 @@
-0x00390043 1 sottocampo3
-0x002E0035 2 sottocampo3
-0x0052003D 3 sottocampo3
-0x002C003D 4 sottocampo3
-0x0032003C 5 sottocampo3
-0x00490024 6 sottocampo3
-0x0018003E 7 sottocampo3
-0x0020003D 8 sottocampo3
 0x00310026 1 jimbolia
 0x004B0047 2 jimbolia
 0x003D002F 3 jimbolia
@@ -105,4 +97,3 @@
 0x0042003E 97 jimbolia
 0x002F004A 98 jimbolia
 0x0033004B 99 jimbolia
-
