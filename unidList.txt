@@ -1,10 +1,3 @@
-0x0043002E 1 kocaeli
-0x0052002E 2 kocaeli
-0x0041002E 7 kocaeli
-0x0044002E 4 kocaeli
-0x002F002D 3 kocaeli
-0x0052003D 1 kocaeli	
-0x00440059 2 kocaeli
 0x00390043 1 sottocampo3
 0x002E0035 2 sottocampo3
 0x0052003D 3 sottocampo3
