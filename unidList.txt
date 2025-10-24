@@ -18,7 +18,7 @@
 0x0020003E 18 jimbolia
 0x0054003D 19 jimbolia
 0x002F0035 20 jimbolia
-0x003D0026 21 jimbolia
+0x003E003D 21 jimbolia
 0x001E004B 22 jimbolia
 0x003A002F 23 jimbolia
 0x0054002F 24 jimbolia
@@ -43,7 +43,7 @@
 0x00550026 43 jimbolia
 0x002D003E 44 jimbolia
 0x0025003C 45 jimbolia
-0x0043003D 46 jimbolia
+0x004D0025 46 jimbolia
 0x001F003E 47 jimbolia
 0x002F0043 48 jimbolia
 0x0036003E 49 jimbolia
