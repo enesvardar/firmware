@@ -1,8 +1,8 @@
 PARAMATERS
-[ID] = [0 - 99]
+[ID] = [0 - 65]
 begin
-LTTD = 45.793; 
-LNTD = 30.715;
+LTTD = 43.513467000895865; 
+LNTD = 12.161840271793924;
 BTDP = -28;
 EWIP = -28;
 WWIP = 28;
@@ -10,7 +10,7 @@ ASWP = -45;
 ACLP = -55;
 UPHP = 10;
 UNHP = -10;
-TZ__ = 2;
+TZ__ = 1;
 AAPD = 1;
 BOXD = -1;
 SYNC = 1;
