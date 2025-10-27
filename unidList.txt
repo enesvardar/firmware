@@ -1,4 +1,4 @@
-0X002C003F 1 0 sottocampo4
+0X002C003F 1 8 sottocampo4
 0X00450047 1 0 sottocampo4
 0X001F003F 2 1 sottocampo4
 0X00300035 3 2 sottocampo4
