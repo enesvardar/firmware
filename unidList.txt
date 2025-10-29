@@ -111,4 +111,3 @@
 0X00530024 111 17 sottocampo1
 0X0030003C 112 18 sottocampo1
 0X0030003E 113 22 sottocampo1
-0X0040003E 12 11 sottocampo4
