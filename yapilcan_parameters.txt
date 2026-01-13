@@ -1,7 +1,7 @@
 PARAMATERS
 [ID] = [0 - 43]
 begin
-LTTD = 38.31884; 
+LTTD = 38.31884;
 LNTD = 33.88547;
 BTDP = -28;
 EWIP = -28;

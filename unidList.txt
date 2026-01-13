@@ -19,11 +19,11 @@ UNID
 0x00440054 18 1 yapilcan
 0x00480024 19 1 yapilcan
 0x003F0024 20 1 yapilcan
-0x0053002F 21 0 yapilcan 
+0x0053002F 21 0 yapilcan
 0x004D0026 22 1 yapilcan
 0x002E004B 23 1 yapilcan
 0x001C004B 24 1 yapilcan
-0x002F004F 25 1 yapilcan 
+0x002F004F 25 1 yapilcan
 0x00450054 26 1 yapilcan
 0x00400024 27 1 yapilcan
 0x004D0053 28 1 yapilcan
