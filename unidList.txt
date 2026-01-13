@@ -41,4 +41,4 @@ UNID
 0X00370026 40 1 yapilcan
 0X002C004B 41 0 yapilcan
 0X0024003D 42 1 yapilcan
-0X0035004E 43 1 yapilcan
+0X0035003C 43 1 yapilcan
