@@ -1,7 +1,7 @@
 @echo off
 echo === Copying BIN file ===
 
-set "SOURCE_BIN=D:\github\solar-tracking-system-esp32-communication\.pio\build\esp32-s3-devkitc-1\firmware.bin"
+set "SOURCE_BIN=D:\github\internal\solar-tracking-system-esp32-communication\.pio\build\esp32-s3-devkitc-1\firmware.bin"
 set "DEST_FOLDER=D:\github\firmware"
 copy /Y "%SOURCE_BIN%" "%DEST_FOLDER%"
 echo BIN file copied.
