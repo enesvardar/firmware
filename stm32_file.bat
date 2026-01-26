@@ -1,7 +1,7 @@
 @echo off
 echo === Copying HEX file ===
 
-set SOURCE_HEX=D:\github\internal\solar-tracking-system-internal-acc\Objects\solar_tracking_system_internal_acc.hex
+set SOURCE_HEX=D:\github\solar-tracking-system-internal\Objects\solar_tracking_system_internal_acc.hex
 set DEST_FOLDER=D:\github\firmware
 copy /Y "%SOURCE_HEX%" "%DEST_FOLDER%"
 echo HEX file copied.
