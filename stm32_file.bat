@@ -9,7 +9,7 @@ echo HEX file copied.
 echo.
 echo === Retrieving and formatting version information ===
 
-set DEFINES_FILE=D:\github\internal\solar-tracking-system-internal-acc\src\defines.h
+set DEFINES_FILE=D:\github\solar-tracking-system-internal\src\defines.h
 set VERSION_FILE=%DEST_FOLDER%\stm32_version_info.txt
 
 REM Search for #define APP_VERSION line and get the 3rd token

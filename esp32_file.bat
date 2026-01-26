@@ -9,7 +9,7 @@ echo BIN file copied.
 echo.
 echo === Retrieving and writing version information ===
 
-set "DEFINES_FILE=D:\github\solar-tracking-system-esp32-communication\src\main.cpp"
+set "DEFINES_FILE=D:\github\solar-tracking-system-esp32\src\main.cpp"
 set "VERSION_FILE=%DEST_FOLDER%\esp32_version_info.txt"
 
 REM Search for #define APP_VERSION line and get the 3rd token
