@@ -77,3 +77,10 @@ UNID
 0X003F0020 76 0 makedonya
 0X00380037 77 0 makedonya
 0X00400022 78 0 makedonya
+0X00220042 01 0 sottocampo3
+0X004B0027 02 0 sottocampo3
+0X00240042 03 0 sottocampo3
+0X00270048 04 0 sottocampo3
+0X0043004A 34 0 sottocampo3
+0X0018003F 40 0 sottocampo3
+0X00190042 41 0 sottocampo3
