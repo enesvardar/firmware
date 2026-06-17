@@ -37,7 +37,7 @@ UNID
 0X003E0038 36 0 makedonya
 0X002E0021 37 0 makedonya
 0X00330035 38 0 makedonya
-0X004F0038 39 0 makedonya
+0X00360046 39 0 makedonya
 0X004F0053 40 0 makedonya
 0X00260021 41 0 makedonya
 0X00380022 42 0 makedonya
