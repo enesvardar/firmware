@@ -1,0 +1,44 @@
+name: delta-patch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'esp32s3_version_info.txt'
+      - 'firmwares3.bin'
+      - 'releases/**/firmwares3.bin'
+      - 'tools/gen_patches.py'
+      - '.github/workflows/delta-patch.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install detools
+        run: pip install "detools>=0.49.0"
+
+      - name: Generate delta patches
+        run: python tools/gen_patches.py
+
+      - name: Commit patches
+        run: |
+          if [ -z "$(git status --porcelain patch)" ]; then
+            echo "no new patches"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add patch
+          git commit -m "Generate delta patches"
+          git push
