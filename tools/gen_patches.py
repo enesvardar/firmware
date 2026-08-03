@@ -79,6 +79,24 @@ def verify_patch(basePath, newPath, patch):
         raise ValueError("patch does not reproduce %s" % newPath)
 
 
+def patch_is_current(basePath, newPath, patchPath):
+    with open(patchPath, "rb") as f:
+        blob = f.read()
+
+    if len(blob) <= HEADER_SIZE:
+        return False
+
+    if blob[MAGIC_SIZE:MAGIC_SIZE + DIGEST_SIZE] != image_digest(basePath):
+        return False
+
+    try:
+        verify_patch(basePath, newPath, blob[HEADER_SIZE:])
+    except Exception:
+        return False
+
+    return True
+
+
 def base_versions(version):
     archiveRoot = os.path.join(REPO_DIR, ARCHIVE_DIR)
     if not os.path.isdir(archiveRoot):
@@ -126,8 +144,10 @@ def main():
         outPath = os.path.join(REPO_DIR, PATCH_DIR,
                                "firmwares3_%s_to_%s.patch" % (baseVersion, version))
         if os.path.isfile(outPath):
-            print("  %s -> %s : already present" % (baseVersion, version))
-            continue
+            if patch_is_current(basePath, newBin, outPath):
+                print("  %s -> %s : already present" % (baseVersion, version))
+                continue
+            print("  %s -> %s : stale, regenerating" % (baseVersion, version))
 
         try:
             patch = create_patch(basePath, newBin, outPath)
