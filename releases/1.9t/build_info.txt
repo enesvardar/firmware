@@ -1,4 +1,0 @@
-APP_VERSION = 1.9t
-APP_SIZE    = 1212352
-APP_SHA256  = f98849c6fd8a35a8f1751c45b32074f13b80763727868baa1932ca2f75d5239e
-NOTE        = local 1.9 rebuild flashed by cable, delta OTA base only
