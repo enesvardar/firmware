@@ -1,0 +1,18 @@
+osimo
+[ID] = [0 - 79]
+begin
+LTTD = 44.322191;
+LNTD = 11.912674;
+BTDP = -28;
+EWIP = -28;
+WWIP = 28;
+ASWP = -45;
+ACLP = -45;
+UPHP = 50;
+UNHP = -50;
+TZ__ = 1;
+AAPD = -1;
+BOXD = +1;
+SYNC = 1;
+SLCA = 0;
+end
