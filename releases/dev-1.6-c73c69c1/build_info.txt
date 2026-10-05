@@ -1,0 +1,4 @@
+APP_VERSION = 1.6
+APP_SIZE    = 1453200
+APP_SHA256  = c73c69c159a0698bab8097c29ce439f07a57383a64edf864e7a16d00d808d0ef
+NOTE        = local build flashed by cable, delta OTA base only
