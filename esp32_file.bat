@@ -1,7 +1,7 @@
 @echo off
 echo === Copying BIN file ===
 
-set "SOURCE_BIN=D:\github\solar-tracking-system-esp32\.pio\build\esp32-s3-devkitc-1\firmware.bin"
+set "SOURCE_BIN=D:\github\solar-tracking-system-wifi\.pio\build\esp32-s3-devkitc-1\firmware.bin"
 set "DEST_FOLDER=D:\github\firmware"
 copy /Y "%SOURCE_BIN%" "%DEST_FOLDER%"
 echo BIN file copied.
@@ -9,7 +9,7 @@ echo BIN file copied.
 echo.
 echo === Retrieving and writing version information ===
 
-set "DEFINES_FILE=D:\github\solar-tracking-system-esp32\src\main.cpp"
+set "DEFINES_FILE=D:\github\solar-tracking-system-wifi\src\main.cpp"
 set "VERSION_FILE=%DEST_FOLDER%\esp32_version_info.txt"
 
 REM Search for #define APP_VERSION line and get the 3rd token
